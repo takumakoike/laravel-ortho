@@ -47,6 +47,7 @@
         </header>
 
         <main class="mt-6 w-10/12 mx-auto">
+            by takuma
             @foreach ($fees as $item)
                 <p class="text-white font-bold text-5xl">{{$item->menuFee}}</p>
                 <p>{{$item->menuName}}</p>
